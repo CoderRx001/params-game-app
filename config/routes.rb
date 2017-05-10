@@ -13,5 +13,10 @@ Rails.application.routes.draw do
 
     get '/segment_guess/:turkey' => 'params_example#segment_guess'
 
+    get '/form_show_params' => 'params_example#form_show'
+    post '/form_send_params' => 'params_example#form_send'
+
+    get '/form_guess_show_params' => 'params_example#form_guess_show'
+    post '/form_guess_send_params' => 'params_example#form_guess_send'
 
 end
